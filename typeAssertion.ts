@@ -13,3 +13,4 @@ const result1 = KgToGMConverter(5);
 console.log({result1})
 const result2 = KgToGMConverter("2 Kg");
 console.log({result2})
+
