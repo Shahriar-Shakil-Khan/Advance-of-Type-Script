@@ -1,0 +1,1 @@
+{"version":3,"file":"genericsWithInterface.js","sourceRoot":"","sources":["genericsWithInterface.ts"],"names":[],"mappings":";;AAaA,MAAM,aAAa,GAKd;IAED,IAAI,EAAC,QAAQ;IACb,MAAM,EAAC,EAAE;IACT,MAAM,EAAE;QACJ,KAAK,EAAE,MAAM;QACb,KAAK,EAAE,QAAQ;QACf,YAAY,EAAE,MAAM;KACvB;IACD,UAAU,EAAE;QACR,KAAK,EAAE,OAAO;QACd,KAAK,EAAE,sBAAsB;QAC7B,YAAY,EAAE,MAAM;KACvB;CACJ,CAAA"}
