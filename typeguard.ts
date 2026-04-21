@@ -9,3 +9,25 @@ const add = (num1:Alphaneumeric, num2:Alphaneumeric)=>{
 }
 
 console.log(add(1,"2"));
+
+type NormalUser = {
+    name: string;
+};
+
+type AdminUser = {
+    name: string;
+    role:"Admin";
+};
+
+
+const getUserInfo = (user:NormalUser | AdminUser) => {
+
+    if("role" in user ){
+        console.log(`${user.name} is an ${user.role}`);
+    }else{
+        console.log(`${user.name} is a normal user`);
+    }
+}
+
+getUserInfo({name:"John"});
+getUserInfo({name:"Jane", role:"Admin"});
