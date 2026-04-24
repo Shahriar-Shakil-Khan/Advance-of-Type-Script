@@ -28,3 +28,53 @@ const person2= new Student();
 const person3= new NextLevelDeveloper();
 
 getSleepingHours(person2);
+
+
+class Shape {
+    getArea(): number{
+        return 0;
+    }
+}
+
+class Circle extends Shape{
+
+    radius: number;
+
+    constructor(radius:number){
+        super()
+        this.radius= radius;
+
+    }
+    getArea(): number{
+        return Math.PI*this.radius*this.radius
+
+    }
+}
+
+
+class Rectangle extends Shape{
+
+    height:number;
+    widht:number;
+
+    constructor(height:number,widht:number){
+        super()
+        this.height = height;
+        this.widht = widht;
+
+    }
+    getArea(): number{
+        return this.height*this.widht ;
+
+    }
+}
+
+const getArea = (param: Shape) =>{
+   console.log(param.getArea());
+};
+
+const shape1 = new Shape(); 
+const shape2 = new Circle(20); 
+const shape3 = new Rectangle(20,2);
+
+getArea(shape3);
